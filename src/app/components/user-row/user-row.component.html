@@ -1,0 +1,8 @@
+<div class="row">
+  <a class="name">{{user.name}}</a>
+  <div class="counter">
+    <button id="minus" *ngIf="user.counter > 0" (click)="decrementCounter()">-</button>
+    <a class="count">{{user.counter}}</a>
+    <button id="plus" (click)="incrementCounter()">+</button>
+  </div>
+</div>

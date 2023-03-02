@@ -1,0 +1,57 @@
+div, p, ul {
+  margin: auto;
+  width: 50%;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.timestamps {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.timestamps td {
+  padding: 5px;
+  border-bottom: solid lightgray;
+}
+
+.timestamps tr:last-child td {
+  border-bottom: none;
+}
+
+.timestamps td a:first-child {
+  float: left;
+}
+
+.timestamps td a {
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #333;
+  padding: 10px;
+}
+
+.timestamps td:hover {
+  background-color: #f2f2f2;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}

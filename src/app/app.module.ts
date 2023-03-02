@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import {HttpClientModule} from "@angular/common/http";
+import { UserRowComponent } from './components/user-row/user-row.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserRowComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

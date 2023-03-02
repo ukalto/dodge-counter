@@ -1,0 +1,50 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 10px;
+}
+
+#plus, #minus {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#plus:hover {
+  color: lawngreen;
+}
+
+#minus:hover {
+  color: red;
+}
+
